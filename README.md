@@ -1,1 +1,2 @@
 # Signal-Processing
+The objective of this Repository is to store the tools that i may happen to need for my signal processing course,This includes but not limited to Transforming a signals, manipulating Signals in anyway. The functionality of this code will be changing as soon as a new concept is being introduced in class. The functionality and a guide on how to use this code will be provided on this README file. Stick around, the science is about to begin 
