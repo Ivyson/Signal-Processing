@@ -23,10 +23,13 @@ Signal = get_user_defined_signal()
 
 # Retrieve coefficients from 0 to N
 coefficients = [fourier_coefficient(n, Signal, L) for n in range(N)]
+print("The Coefficients below will be presented as (a_0, a_n, b_n)")
+print(coefficients)
 
 # Calculate the Fourier series
 def fourier_series(x, coeffs):
     a0 = coeffs[0][0]
+    # print(f"Your DC Amplitude or a_0 ={a0}")
     series = a0 / 2 
     for n in range(1, len(coeffs)):
         an, bn = coeffs[n][1], coeffs[n][2]
