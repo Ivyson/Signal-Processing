@@ -4,7 +4,7 @@ The objective of this Repository is to store and develop tools for my signal pro
 
 ## Usage
 
-I primarily use `scipy`, `matplotlib`, and `numpy` in this project. However, the scope may expand as the problems become more complex. To ensure that the necessary libraries are installed and up-to-date, please refer to the `requirements.txt` file, which will contain the updated list of required libraries.
+I primarily use <del> `scipy` </del> `sympy` , `matplotlib`, and `numpy` in this project. However, the scope may expand as the problems become more complex. To ensure that the necessary libraries are installed and up-to-date, please refer to the `requirements.txt` file, which will contain the updated list of required libraries.
 The code does not yet accept user inputted signals, i shall do that research and see how can i fiddle with that!
 
 ### Fourier Series Approximation
