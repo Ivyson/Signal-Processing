@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import sympy as sym
 t = sym.Symbol('t')
 # equation = sym.Piecewise((1,(t > 0) & (t < 10)), (0, True))
@@ -24,6 +25,8 @@ p1.show()
 #     else:
 #         period = start - end
 #     return t,period, sym.sympify(equation1),
+=======
+>>>>>>> fab2a7be8a0b4125364e8dd66ae3f5df44724b09
 import sympy as sp
 
 def get_function_input(prompt):
@@ -81,4 +84,8 @@ def main():
     print(f"Series expansion result: {series_result}")
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
+=======
+    main()
+>>>>>>> fab2a7be8a0b4125364e8dd66ae3f5df44724b09

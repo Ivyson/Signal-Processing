@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 import sympy as sp
 import matplotlib.pyplot as plt
@@ -60,6 +61,9 @@ plt.grid(True)
 plt.show()
 
 
+=======
+import sympy as sp
+>>>>>>> fab2a7be8a0b4125364e8dd66ae3f5df44724b09
 t = sp.Symbol('t')
 
 # Define the piecewise function with a default condition (covering entire range)
